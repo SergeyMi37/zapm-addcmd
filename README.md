@@ -1,4 +1,4 @@
-![](https://github.com/SergeyMi37/zapm-addcmd/blob/master/doc/prompt.ico)
+![](https://github.com/SergeyMi37/zapm-addcmd/blob/master/doc/zapm-addcmd.png)
 
 ## zapm-addcmd
 [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/zapm-addcmd-1)
