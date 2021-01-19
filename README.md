@@ -3,7 +3,7 @@
 ## zapm-addcmd
 [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/zapm-addcmd-1)
 
-zapm-addcmd is a shell - extends the zpm shell and adds any other commands.
+An example of adding new commands to the zapm shell.
 
 ## Installation with ZPM
 
@@ -50,3 +50,4 @@ USER>zapm "StopProd"
 USER>zapm "StartProd"
 
 ```
+![](https://github.com/SergeyMi37/zapm-addcmd/blob/master/doc/Screenshot_1.png)
