@@ -17,14 +17,14 @@
 	  <Arg>StopProd</Arg>
 	  <Arg>Prod</Arg>
 	  <Arg>Ask</Arg>
-	  <Arg>Save settings and stop of products in all Namespaces</Arg>
+	  <Arg>Stop of products in all Namespaces</Arg>
 	 </Invoke>
 	<Invoke Class="%ZAPM.ext.commands" Method="AddUpdate">
       <Arg>do ##class(%ZAPM.ext.Production).StartAll()</Arg>
 	  <Arg>StartProd</Arg>
 	  <Arg>Prod</Arg>
 	  <Arg>Ask</Arg>
-	  <Arg>Check and start products in Namespaces</Arg>
+	  <Arg>Start products in all Namespaces</Arg>
 	 </Invoke>
 	</Invokes>
   <Resource Name="addcmd.PKG"/> 
