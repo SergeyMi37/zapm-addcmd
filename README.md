@@ -50,4 +50,4 @@ USER>zapm "StopProd"
 USER>zapm "StartProd"
 
 ```
-![](https://github.com/SergeyMi37/zapm-addcmd/blob/master/doc/Screenshot_2.png)
+![](https://raw.githubusercontent.com/SergeyMi37/zapm-addcmd/master/doc/Screenshot_2.png)
