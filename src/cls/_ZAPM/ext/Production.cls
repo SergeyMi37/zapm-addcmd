@@ -193,7 +193,7 @@ ClassMethod init() As %Status
 /// do ##class(%ZAPM.ext.Production).exportXMLprod("d:\_proj\_zapp\zpm-addition+\zapm-addcmd\addcmd\zapm\_zapmprod.xml")
 ClassMethod exportXMLprod(dir = "")
 {
- 	s list("%ZAPM.ext.INC")=""
+ 	s list("%ZAPM.ext.Common.INC")=""
 	s list("%ZAPM.ext.Production.CLS")=""
 	d $SYSTEM.OBJ.Export(.list, dir)
 }
