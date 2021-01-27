@@ -3,7 +3,7 @@
 <Document name="zapm-addcmd.ZPM">
 <Module>
  <Name>zapm-addcmd</Name>
-  <Version>1.0.2</Version>
+  <Version>1.0.3</Version>
   <Description>An example of adding new commands to the zapm shell.</Description>
   <Packaging>module</Packaging>
   <SourcesRoot>./</SourcesRoot>

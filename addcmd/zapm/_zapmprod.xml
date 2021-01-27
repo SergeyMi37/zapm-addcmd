@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2020.1 (Build 215U)" ts="2021-01-19 20:52:17">
-<Routine name="%ZAPM.ext" type="INC" timestamp="65761,50684.677"><![CDATA[
+<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2020.1 (Build 215U)" ts="2021-01-27 06:51:57">
+<Routine name="%ZAPM.ext.Common" type="INC" timestamp="65770,80471.580324"><![CDATA[
 #Include %occMessages
 #include %occReference
 
@@ -292,8 +292,8 @@ Utilities for group work with Ensemble or Interoperability products of different
 do ##class(%ZAPM.ext.Production).SaveAndStop()
 do ##class(%ZAPM.ext.Production).StartAll()</Description>
 <Abstract>1</Abstract>
-<IncludeCode>%ZAPM.ext</IncludeCode>
-<TimeChanged>65763,75114.711171</TimeChanged>
+<IncludeCode>%ZAPM.ext.Common</IncludeCode>
+<TimeChanged>65771,24710.472815</TimeChanged>
 <TimeCreated>65607,76510.942315</TimeCreated>
 
 <Parameter name="TIMEOUTSTOP">
@@ -529,7 +529,7 @@ do ##class(%ZAPM.ext.Production).exportXMLprod("d:\_proj\_zapp\zpm-addition+\zap
 <ClassMethod>1</ClassMethod>
 <FormalSpec>dir=""</FormalSpec>
 <Implementation><![CDATA[
- 	s list("%ZAPM.ext.INC")=""
+ 	s list("%ZAPM.ext.Common.INC")=""
 	s list("%ZAPM.ext.Production.CLS")=""
 	d $SYSTEM.OBJ.Export(.list, dir)
 ]]></Implementation>
